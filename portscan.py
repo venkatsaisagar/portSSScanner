@@ -1,6 +1,9 @@
 #Use these commands in Kali to install required software:
 #  sudo apt install python3-pip
 #  pip install python-nmap
+import subprocess
+subprocess.run(['sudo','apt','install','python3-pip'])
+subprocess.run(['pip','install','python-nmap'])
 
 # Import nmap so we can use it for the scan
 import nmap
